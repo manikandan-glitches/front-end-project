@@ -1,0 +1,70 @@
+.header{
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.naamam{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.youlogo{
+    height: 20px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 60px;
+    max-width: 470px;
+}
+.search-bar{
+    height: 40px;
+    font-size: 16px;
+    flex: 1;
+    min-width: 0px;
+    width: 0px;
+    padding-left: 12px;
+}
+.middle .first{
+    height: 46px;
+    width: 64px;
+    margin-left: -2px;
+    margin-right: 8px;
+}
+.middle .second{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
+.middle button .search-logo{
+    height: 24px;
+}
+.right img{
+    height: 24px;
+}
+.right .channellogo{
+    height: 32px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 182px;
+    align-items: center;
+    margin-right: 24px;
+    margin-left: 29px;
+    flex-shrink: 0;
+}

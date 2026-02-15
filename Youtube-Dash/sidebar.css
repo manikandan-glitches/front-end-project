@@ -1,0 +1,27 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 72px;
+    position: fixed;
+    top:56px;
+    left:0px;
+
+
+}
+.sidebar img{
+    height: 24px;
+}
+.sidebar div div{
+    padding: 0px;
+    margin-top: 6px;
+    height: 12px;
+}
+.sidebar div{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+}
