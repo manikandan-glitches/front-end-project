@@ -6,6 +6,9 @@
     position: fixed;
     top:56px;
     left:0px;
+    background-color: white;
+    z-index: 200px;
+    margin-right: 20px;
 
 
 }
