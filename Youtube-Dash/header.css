@@ -10,6 +10,9 @@
     margin-bottom: 20px;
     z-index: 100;
     background-color: white;
+    border-bottom: 1px rgb(222, 222, 222) solid;
+    padding-bottom: 4px;
+   
 .left{
     display: flex;
     align-items: center;
@@ -39,12 +42,17 @@
     min-width: 0px;
     width: 0px;
     padding-left: 12px;
+    border: 1px;
+    border-color: rgb(222, 222, 222);
+    border-style: solid;
+    box-shadow: inset 1px 1px 2px rgb(222, 222, 222);
 }
 .middle .first{
-    height: 46px;
+    height: 43px;
     width: 64px;
     margin-left: -2px;
     margin-right: 8px;
+    border: 1px rgb(204, 204, 204) solid;
 }
 .middle .second{
     height: 40px;

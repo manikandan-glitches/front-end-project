@@ -5,6 +5,25 @@
     row-gap: 22px;
     column-gap: 18px;
 }
+@media(max-width:1400px){
+    .content{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+}
+
+
+@media(max-width:1200px){
+.content{
+    grid-template-columns: 1fr 1fr 1fr;
+}}
+
+@media(max-width:750px){
+.content{
+    grid-template-columns: 1fr 1fr;
+}}
+
+
 .content .thumb{
     display: grid;
     grid-template-columns: 1fr;
@@ -24,7 +43,24 @@
 }
 .title{
     margin-top: 8px;
+    font-family: Roboto;
+    font-weight: 470;
+    font-size: 15px;
+    color: black;
 }
-.text{
-    hori
+p{
+    font-family: Roboto;
+    font-size: 12px;
+    color:rgb(96, 96, 96);
+}
+
+.time{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    bottom: 10px;
+    right: 6px;
+    height: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 3px;
 }
