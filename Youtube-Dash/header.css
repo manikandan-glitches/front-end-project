@@ -53,6 +53,7 @@
     margin-left: -2px;
     margin-right: 8px;
     border: 1px rgb(204, 204, 204) solid;
+    position: relative;
 }
 .middle .second{
     height: 40px;
@@ -68,6 +69,7 @@
 }
 .right .channellogo{
     height: 32px;
+    border-radius: 50px;
 }
 .right{
     display: flex;
@@ -78,4 +80,26 @@
     margin-right: 24px;
     margin-left: 29px;
     flex-shrink: 0;
+}
+
+.first-1{
+    background-color: rgb(17, 16, 16,0);
+    color:white;
+    position: absolute;
+    padding: 4px;
+    margin-top: 30px;
+    height: 18px;
+    width: 45px;
+    border-radius: 2px;
+}
+
+.first:hover .first-1{
+    background-color: rgb(17, 16, 16,0.5);
+    color:white;
+    position: absolute;
+    padding: 4px;
+    margin-top: 30px;
+    height: 18px;
+    width: 45px;
+    border-radius: 2px;
 }
